@@ -22,10 +22,9 @@
     transform: translateX(-100%);
     transition: all 0.5s;
     &:focus {
-      outline: none; // Outline là một đường kẻ xung quanh phần tử, nằm bên ngoài border để làm nổi bật phần tử.
+      outline: none;
     }
   }
-
   .sidebar-mini__content {
     width: 100%;
     padding: $pd-3;

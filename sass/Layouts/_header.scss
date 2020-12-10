@@ -1,0 +1,52 @@
+.my-navbar {
+  //left
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
+    0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  .my-navbar__col {
+    padding-left: 0;
+  }
+  .my-navbar__left {
+    border: 1px solid red;
+
+    display: flex;
+    align-items: center;
+    .navbar-brand {
+      flex-grow: 1;
+      text-align: center;
+      margin-right: 0;
+      .logo-white {
+        display: none;
+      }
+      img {
+        width: 110px;
+      }
+    }
+  }
+  .my-navbar__right {
+    border: 1px solid yellow;
+    .navbar-nav {
+      justify-content: space-between;
+      align-items: center;
+      .nav-item {
+        padding: $pd-2 $pd-2;
+        border: 1px solid transparent;
+        border-radius: $border-radius-0 + 1;
+        position: relative;
+        .nav-link {
+          @include styleText($color-black-light, $fs-1, $fw-0);
+        }
+        &:hover {
+          //Doi mau nen , chuyen div thanh block va index troi len 10
+          background-color: $color-gray-1;
+          .overlay {
+            display: block;
+            z-index: 10;
+          }
+        }
+        .overplay {
+        }
+      }
+    }
+  }
+  //right
+}

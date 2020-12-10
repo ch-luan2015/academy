@@ -48,8 +48,91 @@
         </div>
       </div>
     </div>
-    <!-- HEADER -->
 
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar my-navbar navbar-expand-md navbar-light">
+        <div class="d-md-none col-sm-2 col-3">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="col-xl-7 col-lg-9 col-md-8 col-sm-8 col-6 my-navbar__col">
+          <div class="my-navbar__left">
+            <a class="navbar-brand" href="#">
+              <img
+                class="logo-black"
+                src="./img/logo-coral.svg"
+                alt="logo-black"
+              />
+              <img
+                class="logo-white"
+                src="./img/logo-coral-white.svg"
+                alt="logo-white"
+              />
+            </a>
+            <div class="my-navbar__categories">
+              <i class="fas fa-th"></i>
+              <span>Categories</span>
+            </div>
+            <form class="my-navbar__form-search">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search for Courses"
+                />
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">
+                    <i class="fa fa-search"></i>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-3 col-md-4 col-sm-2 col-3 my-navbar--reset">
+          <div class="my-navbar__right">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item business">
+                <a class="nav-link" href="#">Udemy for Business</a>
+                <div class="overlay">
+                  <p>
+                    Get your team access to Udemy's top 2500 courses anytime,
+                    anywhere.
+                  </p>
+                  <a href="#">Try Udemy For Business</a>
+                </div>
+              </li>
+              <li class="nav-item instructor">
+                <a class="nav-link" href="#">Become an Instructor</a>
+                <div class="overlay">
+                  <p>
+                    Get your team access to Udemy's top 2500 courses anytime,
+                    anywhere.
+                  </p>
+                  <a href="#">Try Udemy For Business</a>
+                </div>
+              </li>
+              <li class="nav-item my-navbar__cart">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-shopping-cart"></i
+                ></a>
+              </li>
+              <li class="nav-item my-navbar__button">
+                <button class="button button-white">Login</button>
+                <button class="button button-red">Sign up</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- MAIN JS -->
     <script src="./js/main.js"></script>
   </body>

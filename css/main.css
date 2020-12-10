@@ -11,6 +11,42 @@ body {
   color: #29303b;
   background-color: #fff; }
 
+.my-navbar {
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1); }
+  .my-navbar .my-navbar__col {
+    padding-left: 0; }
+  .my-navbar .my-navbar__left {
+    border: 1px solid red;
+    display: flex;
+    align-items: center; }
+    .my-navbar .my-navbar__left .navbar-brand {
+      flex-grow: 1;
+      text-align: center;
+      margin-right: 0; }
+      .my-navbar .my-navbar__left .navbar-brand .logo-white {
+        display: none; }
+      .my-navbar .my-navbar__left .navbar-brand img {
+        width: 110px; }
+  .my-navbar .my-navbar__right {
+    border: 1px solid yellow; }
+    .my-navbar .my-navbar__right .navbar-nav {
+      justify-content: space-between;
+      align-items: center; }
+      .my-navbar .my-navbar__right .navbar-nav .nav-item {
+        padding: 5px 5px;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        position: relative; }
+        .my-navbar .my-navbar__right .navbar-nav .nav-item .nav-link {
+          color: #505763;
+          font-size: 13px;
+          font-weight: normal; }
+        .my-navbar .my-navbar__right .navbar-nav .nav-item:hover {
+          background-color: rgba(20, 23, 28, 0.05); }
+          .my-navbar .my-navbar__right .navbar-nav .nav-item:hover .overlay {
+            display: block;
+            z-index: 10; }
+
 .sidebar-mini {
   width: 150px;
   position: fixed;
