@@ -16,6 +16,28 @@ body {
   color: #29303b;
   background-color: #fff; }
 
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  color: #007791;
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.1);
+  position: absolute;
+  top: 35%; }
+  .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover {
+    background-color: #fff; }
+    .owl-carousel .owl-nav button.owl-next:hover span, .owl-carousel .owl-nav button.owl-prev:hover span {
+      color: #007791; }
+  .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus {
+    outline: none; }
+.owl-carousel .owl-nav button.owl-next {
+  right: -30px; }
+.owl-carousel .owl-nav button.owl-prev {
+  left: -30px; }
+
 .my-navbar {
   box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1); }
   .my-navbar .my-navbar__col {
@@ -268,6 +290,179 @@ body {
     .intro {
       display: none; } }
 
+.course {
+  margin: 25px 0; }
+  .course .course__content {
+    width: 90%;
+    margin: 0 auto; }
+    .course .course__content .row {
+      margin-right: 0;
+      margin-left: 0; }
+    .course .course__content .course__left {
+      background-color: rgba(20, 23, 28, 0.05);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center; }
+      .course .course__content .course__left h2 {
+        color: #29303b;
+        font-size: 19px;
+        font-weight: normal; }
+    .course .course__content #myTab {
+      margin-bottom: 25px; }
+      .course .course__content #myTab .nav-link {
+        color: #29303b;
+        font-size: 15px;
+        font-weight: normal; }
+        .course .course__content #myTab .nav-link:hover {
+          border-color: transparent;
+          color: #007791; }
+        .course .course__content #myTab .nav-link.active {
+          border: none;
+          border-bottom: 5px solid #007791; }
+  @media screen and (max-width: 1290px) {
+    .course .course__content .card .card-body .card-title {
+      color: #29303b;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 10px; } }
+  @media screen and (max-width: 768px) {
+    .course .course__content .course__left {
+      padding: 20px; } }
+
+.viewing {
+  padding: 22px 0; }
+  .viewing .viewing__content {
+    width: 90%;
+    margin: 0 auto; }
+    .viewing .viewing__content h2 {
+      font-size: 20px; }
+  @media screen and (max-width: 1290px) {
+    .viewing .viewing__content .card .card-body .card-title {
+      color: #29303b;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 10px; } }
+
+.banner {
+  height: 325px;
+  background: url("../img/udemy-logo-semi-transparent.svg") no-repeat 0/30%, linear-gradient(61deg, #6e1a52, #76c5d6 42%);
+  background-blend-mode: overlay; }
+  .banner h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: normal; }
+  .banner p {
+    margin-bottom: 0; }
+  .banner button {
+    margin: 10px 0; }
+
+.categories {
+  width: 90%;
+  margin: 32px auto 0; }
+  .categories .categories__content h2 {
+    font-size: 24px; }
+  .categories .categories__content .categories__items {
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid rgba(20, 23, 28, 0.1);
+    margin-bottom: 1rem; }
+    .categories .categories__content .categories__items:hover {
+      box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1); }
+
+.student {
+  padding: 10px 0; }
+  .student .student__content {
+    width: 90%;
+    margin: 0 auto; }
+    .student .student__content h2 {
+      font-size: 24px;
+      margin-bottom: 20px; }
+
+.partner {
+  background-color: #f7f8fa;
+  padding: 20px 0; }
+  .partner .partner__content {
+    width: 70%;
+    margin: 0 auto; }
+    .partner .partner__content .partner__text {
+      text-align: center; }
+    .partner .partner__content .partner__img {
+      display: flex;
+      justify-content: space-between; }
+  @media screen and (max-width: 1200px) {
+    .partner .partner__content {
+      width: 80%; } }
+  @media screen and (max-width: 992px) {
+    .partner .partner__content {
+      width: 90%; } }
+  @media screen and (max-width: 768px) {
+    .partner .partner__content {
+      width: 65%; }
+      .partner .partner__content .partner__img {
+        flex-wrap: wrap; }
+        .partner .partner__content .partner__img .partner__item {
+          width: 50%;
+          text-align: center;
+          margin-bottom: 10px; } }
+
+.jobs {
+  background-color: #f7f8fa;
+  padding-top: 15px; }
+  .jobs .row {
+    padding: 10px; }
+    .jobs .row .jobs__item {
+      max-width: 440px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px; }
+      .jobs .row .jobs__item h2 {
+        color: #505763;
+        font-size: 19px;
+        font-weight: 700; }
+  @media screen and (max-width: 768px) {
+    .jobs .border-right {
+      border-right: none !important; } }
+
+footer {
+  color: #686f7a;
+  font-size: 13px;
+  font-weight: normal; }
+  footer .footer__top {
+    width: 90%;
+    margin: 40px auto; }
+    footer .footer__top ul {
+      height: 110px; }
+      footer .footer__top ul .nav-item {
+        flex-basis: 25%; }
+        footer .footer__top ul .nav-item .nav-link {
+          color: #007791;
+          padding: 0; }
+          footer .footer__top ul .nav-item .nav-link.bold {
+            font-weight: 700; }
+    footer .footer__top .btn-group {
+      display: block; }
+      footer .footer__top .btn-group .button--dropup {
+        box-shadow: none;
+        min-width: 160px; }
+        footer .footer__top .btn-group .button--dropup i {
+          padding: 0 5px; }
+        footer .footer__top .btn-group .button--dropup::after {
+          margin-left: 30%; }
+      footer .footer__top .btn-group .dropdown-menu {
+        font-size: 13px; }
+  footer .footer__bottom {
+    width: 90%;
+    margin: 8px auto; }
+    footer .footer__bottom .logo-white {
+      display: none; }
+    footer .footer__bottom img {
+      width: 110px;
+      margin-right: 10px; }
+    footer .footer__bottom .nav-link {
+      color: #007791;
+      font-size: 13px;
+      font-weight: normal; }
+
 .button-white {
   color: #686f7a;
   background-color: #fff;
@@ -363,4 +558,61 @@ body {
       max-width: 400px;
       left: 10%; } }
 
-/*# sourceMappingURL=main.css.map */
+.card {
+  height: 275px;
+  margin-right: 1px; }
+  .card .card-body {
+    padding: 1rem; }
+    .card .card-body .card-title {
+      color: #29303b;
+      font-size: 15px;
+      font-weight: 600; }
+    .card .card-body .card-text {
+      color: #686f7a;
+      font-size: 12px;
+      font-weight: normal;
+      margin: 5px 0; }
+    .card .card-body .course__star i {
+      color: #f4c150;
+      font-size: 11px;
+      font-weight: 900; }
+    .card .card-body .course__star .card__rate {
+      color: #686f7a;
+      font-size: 12px;
+      font-weight: 600; }
+    .card .card-body .course__star .card__total {
+      color: #686f7a;
+      font-size: 12px;
+      font-weight: normal; }
+    .card .card-body .card__price {
+      text-align: right;
+      padding: 7px 0; }
+      .card .card-body .card__price span:first-child {
+        color: #686f7a;
+        font-size: 13px;
+        font-weight: normal;
+        text-decoration: line-through; }
+      .card .card-body .card__price span:last-child {
+        color: #29303b;
+        font-size: 15px;
+        font-weight: 600; }
+
+.card--feedback {
+  height: 280px; }
+  .card--feedback .card-body {
+    padding: 2rem; }
+    .card--feedback .card-body .card__top {
+      display: flex;
+      margin-bottom: 15px; }
+    .card--feedback .card-body .card__avatar {
+      margin-right: 15px; }
+      .card--feedback .card-body .card__avatar img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%; }
+    .card--feedback .card-body .card__name {
+      margin-bottom: 0; }
+    .card--feedback .card-body .card-text {
+      color: #29303b;
+      font-size: 15px;
+      font-weight: normal; }

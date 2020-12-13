@@ -8,15 +8,7 @@
   transform: translateX(100%);
   transition: all 0.5s;
   .sidebar-mini__button {
-    @include styleButton(
-      $color-black-0,
-      $color-gray-4,
-      $color-gray-4,
-      $fs-5,
-      $fw-0,
-      $pd-2,
-      $pd-3
-    );
+    @include styleButton($color-black-0, $color-gray-4, $color-gray-4, $fs-5, $fw-0, $pd-2, $pd-3);
     border-radius: 8px 0 0 8px;
     position: fixed;
     transform: translateX(-100%);
@@ -71,6 +63,6 @@
     }
   }
   &.is-opened {
-    transform: translateX(10);
+    transform: translateX(0);
   }
 }

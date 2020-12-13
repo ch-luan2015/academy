@@ -5,13 +5,23 @@
 
 //Base
 @import "./base/reset";
-// @import "./base/customize";
+@import "./base/customize";
 
 //Layouts
 @import "./Layouts/header";
-@import "./Layouts/sidebar-mini";
+@import "./Layouts/sidebar-mimi";
 @import "./Layouts/categories";
 @import "./Layouts/intro";
+@import "./Layouts/course";
+@import "./Layouts/viewing";
+@import "./Layouts/banner";
+@import "./Layouts/categories";
+@import "./Layouts/student";
+@import "./Layouts/partner";
+@import "./Layouts/jobs";
+@import "./Layouts/footer";
+
 //Components
 @import "./Components/button";
 @import "./Components/cover";
+@import "./Components/card";
