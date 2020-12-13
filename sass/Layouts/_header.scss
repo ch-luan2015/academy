@@ -1,7 +1,6 @@
 .my-navbar {
   // .&__left
-  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
-    0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
   .my-navbar__col {
     padding-left: 0;
   }
@@ -31,12 +30,7 @@
     }
     .my-navbar__form-search {
       flex-grow: 8;
-      @include styleFormSearch(
-        $color-white-cream,
-        $color-white-0,
-        $color-gray-4,
-        $color-black-light
-      );
+      @include styleFormSearch($color-white-cream, $color-white-0, $color-gray-4, $color-black-light);
     }
   }
   //right
