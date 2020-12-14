@@ -13,7 +13,7 @@
       display: flex;
       align-items: center;
       h2 {
-        @include styleText($color-black-0, $fs-3 + 1, $fw-0);
+        @include styleText($color-black-0, $fs-3 + 1, $fw-2);
       }
     }
     #myTab {
@@ -27,6 +27,8 @@
         &.active {
           border: none;
           border-bottom: 5px solid $color-blue-0;
+          color: $color-blue-0;
+          font-weight: $fw-1;
         }
       }
     }
